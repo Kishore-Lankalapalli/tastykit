@@ -1,0 +1,174 @@
+.specific-restaurant-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-restaurant-details-container {
+  background-image: url('https://res.cloudinary.com/di8upujpz/image/upload/v1671284754/Frame_279_lvsu29.png');
+  background-size: cover;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.specific-restaurant-image {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 133.981px;
+  border-bottom-left-radius: 40px;
+  margin-left: 0px;
+  height: 80%;
+  margin-right: 20px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .specific-restaurant-image {
+    border-radius: 7px;
+    height: 80%;
+    width: 250px;
+    align-self: center;
+    margin-left: 150px;
+  }
+}
+
+.specific-restaurant-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .specific-restaurant-name {
+    font-size: 20px;
+  }
+}
+
+.location-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .location-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.restaurant-ratings-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+.restaurants-rating-price-container {
+  display: flex;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.rating-star-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.restaurant-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.ratings-count-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+.line {
+  width: 1px;
+  height: 45px;
+
+  margin-left: 0px;
+  align-self: center;
+  margin-right: 15px;
+}
+.cost-for-two-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.cost-for-two {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #e2e8f0;
+}
+.restaurant-food-items-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-food-items-container {
+    padding-left: 150px;
+  }
+}
+
+.foodItems-list-container {
+  margin-left: -10px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .foodItems-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+}
+.specific-restaurant-loader-container {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-loader-container {
+    height: 100vh;
+  }
+}

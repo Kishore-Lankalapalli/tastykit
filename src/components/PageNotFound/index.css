@@ -1,0 +1,77 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.not-found-image {
+  height: 155px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 297px;
+    width: 288px;
+  }
+}
+.page-not-found-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .page-not-found-text {
+    font-size: 24px;
+  }
+}
+.page-not-found-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .page-not-found-heading {
+    font-size: 18px;
+  }
+}
+.home-page-button {
+  width: 98px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .home-page-button {
+    height: 48px;
+    width: 128px;
+  }
+}
+.link {
+  text-decoration: none;
+}

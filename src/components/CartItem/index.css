@@ -1,0 +1,118 @@
+.cart-item-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cart-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
+
+.cart-item-image {
+  height: 120px;
+  width: 150px;
+  margin-right: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cart-item-image {
+    height: 130px;
+    width: 170px;
+  }
+}
+.item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #183b56;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .item-name {
+    display: none;
+  }
+}
+.cart-counter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-counter-container {
+    margin-right: 295px;
+    margin-left: 50px;
+
+    justify-content: flex-start;
+  }
+}
+
+.cart-counter-button {
+  height: 20px;
+  width: 20px;
+  margin-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quantity-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-right: 13px;
+}
+.total-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  margin-top: 0px;
+}
+.cart-item-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cart-item-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.item-name-lg-text {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .item-name-lg-text {
+    display: block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.2px;
+
+    color: #183b56;
+    align-self: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cart-item-name-image-container {
+    display: flex;
+    width: 400px;
+  }
+}

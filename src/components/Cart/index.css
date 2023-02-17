@@ -1,0 +1,144 @@
+.cart-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .cart-container {
+    background: #f9fbfe;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 1px solid rgba(11, 105, 255, 0.1);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+}
+
+.ordered-items-cart-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.total-order-cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #3e4c59;
+}
+@media screen and (min-width: 768px) {
+  .total-order-cost {
+    font-size: 24px;
+  }
+}
+.place-order-button {
+  width: 99px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.cart-header-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .cart-header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 190px;
+  }
+}
+.payment-success-image {
+  height: 40px;
+  width: 40px;
+}
+
+.payment-successful-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #1e293b;
+  font-weight: bold;
+}
+.go-to-home-page-button {
+  width: 131px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .payment-success-image {
+    height: 64px;
+    width: 64px;
+  }
+  .payment-successful-heading {
+    font-size: 24px;
+  }
+  .go-to-home-page-button {
+    width: 131px;
+    height: 32px;
+  }
+}
+.payment-success-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payment-successful-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .payment-successful-text {
+    font-size: 16px;
+  }
+}
+.link {
+  text-decoration: none;
+}

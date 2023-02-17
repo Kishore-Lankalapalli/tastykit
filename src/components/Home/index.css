@@ -1,0 +1,258 @@
+.home-route-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+.carousel-container {
+  width: 100%;
+  flex-grow: 1;
+}
+.offers-loader-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .offers-loader-container {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel-container {
+    margin-top: 30px;
+  }
+}
+
+.offer-image {
+  width: 100%;
+  height: 150px;
+}
+@media screen and (min-width: 768px) {
+  .offer-image {
+    height: 250px;
+  }
+}
+
+.slider-dots {
+  color: #ffffff;
+}
+
+.restaurants-display-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.restaurant-loader-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurant-filter-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .restaurants-display-container {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+}
+.popular-restaurants-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  margin-bottom: 4px;
+  color: #183b56;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-heading {
+    font-size: 24px;
+  }
+}
+.restaurants-quotation-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+
+  /* or 200% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-quotation-text {
+    font-size: 13px;
+  }
+}
+.filteration-container {
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .filteration-container {
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+}
+
+.filter-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.filters-select-element {
+  border: none;
+  height: 25px;
+  width: 150px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-options {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #475569;
+  padding-top: 20px;
+}
+.popular-restaurants-lists-container {
+  list-style-type: none;
+  margin-left: -12px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-lists-container {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -40px;
+    margin-top: 50px;
+  }
+}
+.sort-by-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+.restaurant-search-input {
+  height: 35px;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  font-weight: bolder;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-search-input {
+    width: 300px;
+    align-self: flex-end;
+  }
+}
+.empty-search-results-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.no-results-image {
+  height: 140px;
+  width: 200px;
+}
+.no-search-results-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0px;
+}
+.no-search-results-guiding-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+}
+.retry-button {
+  width: 73px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  border-width: 0px;
+}
+@media screen and (min-width: 768px) {
+  .retry-button {
+    height: 40px;
+    width: 90px;
+  }
+  .no-results-image {
+    height: 220px;
+    width: 320px;
+  }
+  .empty-search-results-container {
+    height: 70vh;
+  }
+}
